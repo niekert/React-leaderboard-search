@@ -7,7 +7,6 @@
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "2.1.8",
     "react-testing-library": "7.0.0"
   },
   "devDependencies": {
@@ -15,10 +14,7 @@
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "parcel src/index.html"
   },
   "browserslist": [
     ">0.2%",
