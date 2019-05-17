@@ -2,12 +2,6 @@ import React, { Component } from "react";
 import usersJSON from "../data.json";
 
 export default class Table extends Component {
-  state = {
-    users: usersJSON
-  };
-
-  componentDidUpdate() {}
-
   render() {
     return (
       <div>
@@ -20,7 +14,16 @@ export default class Table extends Component {
               <th>Rank</th>
             </tr>
           </thead>
-          <tbody />
+          <tbody>
+            {usersJSON.map(user => (
+              <tr>
+                <td>{user.age}</td>
+                <td>{user.name}</td>
+                <td>{user.points}</td>
+                <td>{user.rank}</td>
+              </tr>
+            ))}
+          </tbody>
         </table>
       </div>
     );
