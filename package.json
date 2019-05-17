@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "index.html",
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
@@ -14,7 +14,7 @@
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel index.html"
   },
   "browserslist": [
     ">0.2%",
